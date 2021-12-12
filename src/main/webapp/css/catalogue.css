@@ -1,0 +1,155 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.sk_bd .info {
+    float: left;
+    width: 1200px;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+}
+.sk_bd .info h3 {
+    height: 70px;
+    border-bottom: 2px solid #f2f2f3;
+    font-size: 24px;
+    line-height: 68px;
+    color: #000;
+}
+.sk_bd .info table {
+    border-left: 2px solid pink;
+    border-top: 2px solid pink;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #fff;
+}
+.sk_bd .info table th,
+.sk_bd .info table td {
+    padding: 0 5px;
+    border-right: 2px solid pink;
+    border-bottom: 2px solid pink;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #000;
+}
+.sk_bd .info table th {
+    background-color: hotpink;
+}
+.sk_bd .info table tr th:nth-child(1) {
+    width: 70px;
+}
+.sk_bd .info table tr th:nth-child(2) {
+    width: 100px;
+}
+.sk_bd .info table tr th:nth-child(3) {
+    width: 120px;
+}
+.sk_bd .info table tr th:nth-child(4) {
+    width: 125px;
+}
+.sk_bd .info table tr th:nth-child(5) {
+    width: 140px;
+}
+.sk_bd .info table tr th:nth-child(6) {
+    width: 90px;
+}
+.sk_bd .info table tr th:nth-child(7) {
+    width: 386px;
+}
+.sk_bd .info table tr th:nth-child(8) {
+    width: 127px;
+}
+.sk_bd .info button {
+    margin-right: 5px;
+}
+.sk_bd .info .delete {
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #e4614d;
+    color: #fff;
+}
+.sk_bd .info .modify {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+}
+.sk_bd .info form ul li {
+    margin-bottom: 20px;
+}
+.sk_bd .info form ul li label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_bd .info input[type="text"] {
+    width: 275px;
+    height: 30px;
+    margin: 0 110px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.sk_bd .info textarea {
+    width: 1160px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+.sk_bd .info .add {
+    width: 100px;
+    height: 50px;
+    margin: -10px 0 15px 1025px;
+    border-radius: 7px;
+    background-color: #2c77bc;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo {
+    padding-top: 16px;
+}
+.loginarea {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+.loginarea h3 {
+    height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.loginarea .register {
+    float: right;
+    font-size: 14px;
+}
+.loginarea .register a{
+    color: #c81523;
+}
+.log_form {
+    width: 600px;
+    margin: 150px auto 0;
+}
+.log_form ul li {
+    margin-bottom: 20px;
+}
+.log_form ul li label {
+    display: inline-block;
+    width: 170px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.log_form input[type="text"],
+.log_form input[type="password"] {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 195px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}

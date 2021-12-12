@@ -1,0 +1,108 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.sk_bd>div {
+    margin-left: 150px;
+    width: 870px;
+    height: 510px;
+    border: 2px solid #f3f3f1;
+    color: #000;
+}
+.sk_bd .top {
+    height: 50px;
+    padding-left: 20px;
+    border-bottom: 2px solid #f3f3f1;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+}
+.sk_bd form .center ul {
+    padding: 0 20px;
+}
+.sk_bd form .center ul li {
+    margin-top: 10px;
+}
+.sk_bd .center label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_bd .center input[type="text"] {
+    width: 350px;
+    height: 30px;
+    margin-left: 110px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.sk_bd .center textarea {
+    width: 825px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+.sk_bd .center ul li:last-child {
+    text-align: right;
+}
+.sk_bd .center .btn1 {
+    background-color: #2c77bc;
+    cursor: pointer;
+}
+.sk_bd .center .btn2 {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #e4614d;
+    text-align: center;
+    line-height: 40px;
+}
+.sk_bd .center .btn1,
+.sk_bd .center .btn2 {
+    width: 115px;
+    height: 39px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}

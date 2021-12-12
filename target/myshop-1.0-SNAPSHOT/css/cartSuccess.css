@@ -1,0 +1,95 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 282px;
+}
+.sk_bd>div {
+    position: absolute;
+    left: 50%;
+    margin-left: -240px;
+    width: 480px;
+    height: 240px;
+    border: 2px solid #f3f3f1;
+    color: #000;
+}
+.sk_bd .top {
+    height: 50px;
+    padding-left: 20px;
+    border-bottom: 2px solid #f3f3f1;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #dcefd4;
+}
+.sk_bd .center {
+    height: 105px;
+    margin: 0 20px;
+    border-bottom: 2px solid #f3f3f1;
+    font-family: 'icomoon';
+    font-size: 30px;
+    line-height: 103px;
+}
+.sk_bd .bottom {
+    padding-top: 20px;
+}
+.sk_bd .bottom .btn1,
+.sk_bd .bottom .btn2 {
+    float: left;
+    margin: 0 20px;
+    width: 125px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px; 
+    text-align: center;
+}
+.sk_bd .bottom .btn1 {
+    background-color: #e45f4c;
+    color: #fff;
+    line-height: 45px;
+}
+.sk_bd .bottom .btn2 {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    line-height: 43px;
+}

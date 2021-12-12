@@ -1,0 +1,128 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 282px;
+}
+.sk_bd div {
+    height: 600px;
+}
+.sk_bd .gimg {
+    float: left;
+    margin-right: 100px;
+    width: 500px;
+    height: 100%;
+    border: 2px solid transparent;
+}
+.sk_bd .gimg:hover {
+    border: 2px solid #b1191a;
+}
+.sk_bd .gimg img {
+    width: 100%;
+    height: 100%;
+}
+.sk_bd .details {
+    float: left;
+    width: 600px;
+    height: 100%;
+    border: 2px solid #666;
+}
+.sk_bd .details h3 {
+    border-bottom: 2px solid #666;
+    height: 60px;
+    background-color: #666;
+    padding-left: 15px;
+    line-height: 58px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+.sk_bd .details ul{
+    padding: 30px 0 0 15px;
+}
+.sk_bd .details ul li {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+}
+.sk_bd .details ul li:nth-child(6) {
+    margin-bottom: 10px;
+    text-indent: 2em;
+    line-height: 40px;
+}
+.sk_bd .details .bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+}
+.sk_bd .details .bar_in {
+    float: left;
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+    border-radius: 6px;
+}
+.sk_bd .details .btn1 {
+    float: left;
+    width: 185px;
+    height: 45px;
+    border-radius: 6px;
+    margin-right: 20px;
+    background-color: #f7ad47;
+    font-size: 18px;
+    font-family: icomoon;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.sk_bd .details .btn2 {
+    float: left;
+    width: 115px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #e5614d;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}

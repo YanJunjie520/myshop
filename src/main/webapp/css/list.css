@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* list列表页专有样式 */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 282px;
+}
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li a {
+    position: relative;
+    display: block;
+    width: 290px;
+    height: 460px;
+    padding: 0 12px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li a:hover {
+    border: 1px solid #b1191a;
+}
+.sk_bd ul li a img {
+    width: 100%;
+}
+.sk_bd ul li a .info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+.sk_bd ul li a .price {
+    margin-top: 18px;
+    margin-bottom: 13px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #e60012;
+}
+.sk_bd ul li a .origin {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.sk_bd .sales {
+    height: 12px;
+    line-height: 12px;
+    font-size: 14px;
+}
+.sk_bd .sales div {
+    display: inline-block;
+}
+.sk_bd .bar {
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+}
+.sk_bd .bar_in {
+    float: left;
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+    border-radius: 6px;
+}
+.sk_bd .buy {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 288px;
+    height: 49px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+    line-height: 49px;
+    text-align: center;
+}
